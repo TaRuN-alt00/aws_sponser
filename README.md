@@ -1,4 +1,4 @@
-# NIT Jalandhar Tech Fest — Sponsorship Website
+# NIT Jalandhar AWS Builder Group  — Sponsorship Website
 
 All editable copy and data is in `src/data.json`. Replace every value enclosed in square brackets. Enter verified counter and percentage values as JSON numbers (not quoted text) to activate the GSAP counters and Chart.js charts.
 
