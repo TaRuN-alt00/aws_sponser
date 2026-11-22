@@ -1,0 +1,167 @@
+{
+  "fest": {
+    "name": "Talk of the Day",
+    "edition": "[FEST_EDITION]",
+    "dateLabel": "8 December 2026",
+    "announcement": "Fest Day",
+    "announcementDate": "8 December 2026",
+    "countdownDate": "2026-12-08T00:00:00+05:30",
+    "venue": "Dr B R Ambedkar National Institute of Technology Jalandhar",
+    "tagline": "Place your company at the centre of NIT Jalandhar’s technical festival.",
+    "brochureUrl": "[SPONSORSHIP_BROCHURE_URL]",
+    "heroImage": "https://images.unsplash.com/photo-1603127047787-f7919173149c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=82&w=1920",
+    "heroImageCredit": "Photo by Marek Piwnicki on Unsplash"
+  },
+  "organizer": {
+    "name": "AWS Builder Group",
+    "role": "Organising body",
+    "instituteLogo": "/assets/brand/nitj-logo.png",
+    "clubLogo": "/assets/brand/aws-builder-group-logo.png"
+  },
+  "about": {
+    "copy": "Talk of the Day is the technical festival of Dr B R Ambedkar National Institute of Technology Jalandhar. Organised by AWS Builder Group, it brings competitions, workshops and industry-facing technical programmes onto one campus. Sponsorship places your company directly within the festival experience, from event identity and participant touchpoints to on-ground engagement."
+  },
+  "numbers": [
+    { "label": "Festival footfall", "value": "[FOOTFALL_NUMBER]" },
+    { "label": "Colleges represented", "value": "[COLLEGES_NUMBER]" },
+    { "label": "Participants", "value": "[PARTICIPANTS_NUMBER]" },
+    { "label": "Social reach", "value": "[SOCIAL_REACH_NUMBER]" },
+    { "label": "Last edition footfall", "value": "[LAST_YEAR_FOOTFALL]" }
+  ],
+  "events": [
+    {
+      "name": "Hackathon",
+      "description": "Teams build and present a working solution against a defined technical brief.",
+      "participants": "[HACKATHON_PARTICIPANTS]",
+      "namingRights": true
+    },
+    {
+      "name": "Robotics Challenge",
+      "description": "Robots are designed and tested against an arena-based engineering task.",
+      "participants": "[ROBOTICS_PARTICIPANTS]",
+      "namingRights": true
+    },
+    {
+      "name": "Drone Challenge",
+      "description": "Pilots and builders take on a controlled aerial course.",
+      "participants": "[DRONE_PARTICIPANTS]",
+      "namingRights": true
+    },
+    {
+      "name": "Coding Contest",
+      "description": "A timed test of algorithms, accuracy and problem solving.",
+      "participants": "[CODING_PARTICIPANTS]",
+      "namingRights": false
+    },
+    {
+      "name": "Technical Workshops",
+      "description": "Practical sessions around current tools and engineering practice.",
+      "participants": "[WORKSHOP_PARTICIPANTS]",
+      "namingRights": false
+    },
+    {
+      "name": "[ADDITIONAL_EVENT_NAME]",
+      "description": "[ADDITIONAL_EVENT_DESCRIPTION]",
+      "participants": "[ADDITIONAL_EVENT_PARTICIPANTS]",
+      "namingRights": false
+    }
+  ],
+  "pastEvents": [
+    {
+      "name": "MINIMOL'26",
+      "type": "Hackathon",
+      "description": "A focused build sprint that brought teams together to develop and present practical technical solutions."
+    },
+    {
+      "name": "Let's Start 26",
+      "type": "Hackathon",
+      "description": "An idea-to-prototype hackathon designed to help participants begin, build and present with clarity."
+    }
+  ],
+  "audience": {
+    "branchWise": [
+      { "label": "[BRANCH_1]", "value": "[BRANCH_1_PERCENT]" },
+      { "label": "[BRANCH_2]", "value": "[BRANCH_2_PERCENT]" },
+      { "label": "[BRANCH_3]", "value": "[BRANCH_3_PERCENT]" },
+      { "label": "[BRANCH_4]", "value": "[BRANCH_4_PERCENT]" },
+      { "label": "[OTHER_BRANCHES]", "value": "[OTHER_BRANCHES_PERCENT]" }
+    ],
+    "yearWise": [
+      { "label": "First year", "value": "[FIRST_YEAR_PERCENT]" },
+      { "label": "Second year", "value": "[SECOND_YEAR_PERCENT]" },
+      { "label": "Third year", "value": "[THIRD_YEAR_PERCENT]" },
+      { "label": "Final year", "value": "[FINAL_YEAR_PERCENT]" }
+    ]
+  },
+  "tiers": [
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "amount": "[PLATINUM_AMOUNT]",
+      "banner": "/assets/banners/banner-platinum.png",
+      "benefits": [
+        "[PLATINUM_BENEFIT_1]",
+        "[PLATINUM_BENEFIT_2]",
+        "[PLATINUM_BENEFIT_3]",
+        "[PLATINUM_BENEFIT_4]"
+      ],
+      "logoPlacement": "[PLATINUM_LOGO_PLACEMENT]",
+      "stallSpace": "[PLATINUM_STALL_SPACE]",
+      "namingRights": "[PLATINUM_NAMING_RIGHTS]",
+      "passes": "[PLATINUM_PASSES]"
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "amount": "[GOLD_AMOUNT]",
+      "banner": "/assets/banners/banner-gold.png",
+      "benefits": ["[GOLD_BENEFIT_1]", "[GOLD_BENEFIT_2]", "[GOLD_BENEFIT_3]", "[GOLD_BENEFIT_4]"],
+      "logoPlacement": "[GOLD_LOGO_PLACEMENT]",
+      "stallSpace": "[GOLD_STALL_SPACE]",
+      "namingRights": "[GOLD_NAMING_RIGHTS]",
+      "passes": "[GOLD_PASSES]"
+    },
+    {
+      "id": "bronze",
+      "name": "Bronze",
+      "amount": "[BRONZE_AMOUNT]",
+      "banner": "/assets/banners/banner-bronze.png",
+      "benefits": ["[BRONZE_BENEFIT_1]", "[BRONZE_BENEFIT_2]", "[BRONZE_BENEFIT_3]"],
+      "logoPlacement": "[BRONZE_LOGO_PLACEMENT]",
+      "stallSpace": "[BRONZE_STALL_SPACE]",
+      "namingRights": "[BRONZE_NAMING_RIGHTS]",
+      "passes": "[BRONZE_PASSES]"
+    }
+  ],
+  "comparison": [
+    { "feature": "Primary logo placement", "platinum": true, "gold": true, "bronze": false },
+    { "feature": "On-campus activation space", "platinum": true, "gold": true, "bronze": true },
+    { "feature": "Event naming rights", "platinum": true, "gold": true, "bronze": false },
+    { "feature": "Delegate passes", "platinum": true, "gold": true, "bronze": true },
+    { "feature": "Stage acknowledgement", "platinum": true, "gold": true, "bronze": true }
+  ],
+  "sponsors": { "platinum": [], "gold": [], "bronze": [] },
+  "highlights": { "images": [], "aftermovieUrl": "" },
+  "contact": {
+    "formspreeEndpoint": "[FORMSPREE_ENDPOINT]",
+    "email": "[SPONSORSHIP_EMAIL]",
+    "team": [
+      {
+        "name": "[SPONSORSHIP_LEAD_NAME]",
+        "role": "Sponsorship Lead",
+        "phone": "[SPONSORSHIP_LEAD_PHONE]"
+      },
+      {
+        "name": "[SPONSORSHIP_COORDINATOR_NAME]",
+        "role": "Sponsorship Coordinator",
+        "phone": "[SPONSORSHIP_COORDINATOR_PHONE]"
+      }
+    ]
+  },
+  "links": {
+    "college": "https://www.nitj.ac.in/",
+    "instagram": "[INSTAGRAM_URL]",
+    "linkedin": "[LINKEDIN_URL]",
+    "facebook": "[FACEBOOK_URL]"
+  }
+}
