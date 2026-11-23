@@ -1,4 +1,4 @@
-# NIT Jalandhar AWS Builder Group  — Sponsorship Website
+# NIT Jalandhar AWS Builder Group — Sponsorship Website
 
 All editable copy and data is in `src/data.json`. Replace every value enclosed in square brackets. Enter verified counter and percentage values as JSON numbers (not quoted text) to activate the GSAP counters and Chart.js charts.
 
@@ -28,4 +28,15 @@ The site shows a clearly labelled asset state until they are present. Add confir
 
 Past Highlights stays hidden until `highlights.images` or `highlights.aftermovieUrl` has data. The inquiry form becomes live after `[FORMSPREE_ENDPOINT]` is replaced.
 
-Run `pnpm build` for a production build.
+## Admin Management Console
+
+- **Access URL**: Access directly via `/#admin` (no public button on the main website).
+- **Authentication**:
+  - **Phone / Operator ID**: `9079257503`
+  - **Security Passcode**: `AWS_001`
+- **Workflow**:
+  - Sponsorship enquiries arrive as **Requests** with status **Pending**.
+  - Clicking **Approve & Move to Photos** marks the request as Approved and automatically navigates to the **Sponsor Photos & Logos** section with the company pre-filled.
+  - Uploading a company logo or entering an image URL immediately publishes the sponsor live to the public website under `#sponsor-tiers`.
+
+Run `npx vite build` for a production build.
