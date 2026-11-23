@@ -31,9 +31,7 @@ Past Highlights stays hidden until `highlights.images` or `highlights.aftermovie
 ## Admin Management Console
 
 - **Access URL**: Access directly via `/#admin` (no public button on the main website).
-- **Authentication**:
-  - **Phone / Operator ID**: `9079257503`
-  - **Security Passcode**: `AWS_001`
+
 - **Workflow**:
   - Sponsorship enquiries arrive as **Requests** with status **Pending**.
   - Clicking **Approve & Move to Photos** marks the request as Approved and automatically navigates to the **Sponsor Photos & Logos** section with the company pre-filled.
